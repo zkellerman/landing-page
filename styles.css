@@ -117,7 +117,7 @@ h1 {
 .quote-container {
   background-color: #e5e7eb;
   color: #1f2937;
-  margin: 100px 0;
+  margin: 75px 0;
   padding: 100px 250px;
 }
 
@@ -131,4 +131,29 @@ h1 {
   font-size: 24px;
   font-weight: bold;
   text-align: right;
+}
+
+.call-to-action {
+  align-items: center;
+  background-color: #3882f6;
+  border-radius: 8px;
+  color:#f9faf8;
+  display: flex;
+  justify-content: space-between;
+  margin: 75px 200px;
+  padding: 50px 50px;
+}
+
+.call-to-action h2 {
+  margin: 0;
+}
+
+.call-to-action button {
+  background-color: #3882f6;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 8px 32px;
 }
