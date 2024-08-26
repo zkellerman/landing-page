@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 .hero {
   background-color: #1f2937;
   padding: 16px 200px;
@@ -108,4 +112,23 @@ h1 {
 
 .information-image p {
   margin: 5px 25px;
+}
+
+.quote-container {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  margin: 100px 0;
+  padding: 100px 250px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
 }
