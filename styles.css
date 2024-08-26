@@ -76,3 +76,36 @@ h1 {
   background-color: gray;
   width: 50%;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 250px;
+}
+
+.information h2 {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 48px 0;
+  text-align: center;
+}
+
+.information-images {
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
+
+.information-image img {
+  background-color: white;
+  border: 3px solid #3882f6;
+  border-radius: 16px;
+  height: 150px;
+  width: 150px;
+}
+
+.information-image p {
+  margin: 5px 25px;
+}
