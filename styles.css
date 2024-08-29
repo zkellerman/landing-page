@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: Roboto, sans-serif;
+  height: 100vh;
   margin: 0;
 }
 
@@ -11,8 +12,10 @@ p {
   margin: 0;
 }
 
-.hero {
+.header {
   background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
   padding: 16px 200px;
 }
 
@@ -41,13 +44,13 @@ li a {
   gap: 24px;
 }
 
-.hero-main {
+.hero {
+  background-color: #1f2937;
   color: #e5e7eb;
   display: flex;
   font-size: 18px;
   gap: 32px;
-  margin: 75px 0;
-  padding: 75px 0;
+  padding: 75px 200px;
 }
 
 h1 {
@@ -76,9 +79,15 @@ h1 {
   padding: 8px 32px;
 }
 
-.hero-main img {
+.hero img {
   background-color: gray;
   width: 50%;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
 }
 
 .information {
@@ -156,4 +165,11 @@ h1 {
   font-size: 18px;
   font-weight: bold;
   padding: 8px 32px;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 24px 0;
+  text-align: center;
 }
